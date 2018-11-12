@@ -1,0 +1,30 @@
+{
+  "name": "jest-mongoose-open-handlers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "unit": "jest unit",
+    "int": "jest int --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CBFay/jest-mongoose-open-handles"
+  },
+  "dependencies": {
+    "mongoose": "^5.3.11"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "testEnvironment": "node"
+    },
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  }
+}
